@@ -1,0 +1,62 @@
+ .quizcontainer {
+     background-color: #333232;
+     max-width: 500px;
+     border-radius: 5px;
+     box-shadow: 5px 4px 9px rgba(0,0,0,0.2);
+     padding:1rem 1rem 1.5rem;
+     margin:2rem auto;
+ }
+ .question{
+     text-align: center;
+     margin-bottom: 3rem;
+color:#fff;
+ }
+ 
+ .form{
+        display: flex;
+        flex-direction: column;
+    }
+
+.wrong{
+    color: rgb(224, 56, 56);
+    margin-bottom: 1rem;
+    padding:6px;  
+}
+
+.correct {
+    color:rgb(46, 168, 46);
+    margin-bottom: 1rem;
+    padding:6px;  
+}
+
+.answer{
+    color:#fff;
+    margin-bottom: 2rem;
+}
+
+.radio{
+color: #fff;
+  margin-bottom: 1rem;
+  padding:6px;  
+}
+
+.submit{
+    border-radius: 5px;
+    border:none;
+    background-color: slategray;
+    padding:0.5rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.next{
+    border-radius: 5px;
+    border:none;
+    background-color: rgb(129, 179, 230);
+    padding:0.5rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.submit:hover{
+    background-color: steelblue;
+}
